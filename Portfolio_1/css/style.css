@@ -708,7 +708,6 @@ table {
  * ## medium devices (801px to 1000px)
  * --------------------------------------------------------------------- */
 
- 
 @media screen and (max-width: 1000px) {
 	.md-1 {
 		flex : none;
@@ -729,6 +728,7 @@ table {
 		flex : none;
 		width: 33.3333333333%;
 	}
+	
 
 	.md-5 {
 		flex : none;
