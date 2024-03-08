@@ -719,9 +719,14 @@ grid-template-columns: repeat(2, 1fr);: This CSS property defines the columns of
   margin-left: 1.5rem;
 }
 
-.contact-content-con .right-contact .submit-control {
+.contact-content-con .right-contact .sub {
   margin: 1.5rem 0;
-  width: 100%;
+  display: flex;
+}
+
+.contact-content-con .right-contact .submit-control {
+  /* margin: 1.5rem 0; */
+  width: 50%;
   background-color: var(--color-grey-5);
   text-align: center;
   border-radius: 30px;
