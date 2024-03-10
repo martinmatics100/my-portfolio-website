@@ -634,7 +634,7 @@ grid-template-columns: repeat(2, 1fr);: This CSS property defines the columns of
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .contact-content-con .left-contact .contact-info .contact-item p {
@@ -685,6 +685,10 @@ grid-template-columns: repeat(2, 1fr);: This CSS property defines the columns of
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
+}
+
+.contact-item .icon span {
+  color: var(--color-secondary);
 }
 
 .contact-content-con .right-contact {
