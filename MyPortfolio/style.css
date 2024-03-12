@@ -17,7 +17,7 @@ body {
   /* background-image: url(Images/Light-bulb.png);
     background-size: contain;
     background-position: center; */
-  background-image: url(Images/Martin-removebg-preview\\(1\).png);
+  background-image: url(Images/Martin-removebg-preview\(1\).png);
   background-size: 50% 100%; /* This will maintain the image's aspect ratio */
   background-position: right center; /* This will position the image to the left side */
   background-repeat: no-repeat; /* Prevent image from repeating */
@@ -307,6 +307,7 @@ form textarea {
   color: #fff;
   font-size: 18px;
   border-radius: 6px;
+  resize: none;
 }
 form .btn2 {
   padding: 14px 60px;
