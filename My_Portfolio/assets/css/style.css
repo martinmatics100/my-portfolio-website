@@ -1,6 +1,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#msg {
+  color: #61b752;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
